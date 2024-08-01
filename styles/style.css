@@ -249,17 +249,55 @@ height: 50px;
     height: 320px;
 }
 
+.section-three{
+    width: 1140px;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.section-three-banner{
+
+    width: 670px;
+    height: 50px;
+    margin-bottom: 120px
+    
+    
+}
+
+
+.section-three-banner-img-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
 
 
 
-
-
-
-
-
-
-
-
+.one{
+    width: 400px;
+    height: 250px;
+}
+.two{
+    width: 500px;
+    height: 250px;
+}
+.three{
+    width: 400px;
+    height: 250px;
+}
+.four{
+    width: 400px;
+    height: 250px;
+}
+.five{
+    width: 500px;
+    height: 250px;
+}
+.six{
+    width: 400px;
+    height: 250px;
+}
 
 
 
@@ -289,5 +327,21 @@ nav {
 .section-two{
     flex-direction: column;
 }
+.section-three-banner-img-div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.section-three-banner{
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+
+
 
 }
