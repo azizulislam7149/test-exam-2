@@ -214,6 +214,54 @@ height: 50px;
 .main-section-div-img{
     border-radius: 50%;
 }
+.section-two{
+    width: 1140px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:100px ;
+    justify-items: center;
+    background-color: rgb(34, 34, 34);
+
+}
+.section-two-caption{
+    width: 500px;
+    height: 300px;
+}
+.btn-primary{
+    background-color:rgb(230, 83, 60); 
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.section-two-div{
+    width: 400px;
+    height: 300px;
+
+}
+
+.section-two-img{
+    width: 370px;
+    height: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -238,4 +286,8 @@ nav {
     display: flex;
     flex-direction: column;
 }
+.section-two{
+    flex-direction: column;
+}
+
 }
