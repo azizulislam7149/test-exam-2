@@ -298,6 +298,66 @@ height: 50px;
     width: 400px;
     height: 250px;
 }
+.section-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    
+}
+.chartbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.bmi{
+    width: 320px;
+    height: 310px;
+}
+
+
+
+
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    width: 280px;
+    height: 40px;
+}
+
+
+
+.Calculate{
+    width: 580px;
+    height: 390px;
+}
+
+form{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+input{
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+  
+    
+}
+
+.last{ 
+        grid-column: 1 / -1;  
+        width: 580px; 
+}
+
+
 
 
 
