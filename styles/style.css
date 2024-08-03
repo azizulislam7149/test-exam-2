@@ -406,13 +406,14 @@ background: rgba(255, 255, 255, 0.1);
 .main-five-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 25px;
+
 }
 
 
 
 .trainer{
-    width: 330px;
+    width: 400px;
     height: 270px;
    
 }
@@ -434,32 +435,32 @@ background: rgba(255, 255, 255, 0.1);
 .main-footer-1{
     width: 300px;
     height: 300px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     text-align: center;
 }
 
 .main-footer-2{
     width: 300px;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
+.main-footer-2> ul li{
+    list-style: square;
+}
+
+
+
 
 .main-footer-3{
     width: 300px;
     height: 300px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
 }
 
-
-
-
-
-.footer{
-    text-align: center;
-    border-top: 1px solid white;
-    width: 800px;
+.main-footer-3> ul li{
+    list-style: square;
 }
 .main-footer-title{
     font-weight: 700;
@@ -469,6 +470,22 @@ font-style: italic;
 }
 
 
+
+
+
+
+footer{
+   
+   
+    border-top: 1px solid white;
+
+}
+
+
+.footer-paragraph{
+    /* width: 800px; */
+    text-align: center;
+}
 
 
 
